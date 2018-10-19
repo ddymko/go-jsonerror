@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 )
 
-// An ErrorJson contains an array of Errors.
+// An ErrorJSON contains an array of Errors.
 type ErrorJSON struct {
 	Errors []ErrorComp
 }
@@ -19,20 +19,24 @@ type ErrorComp struct {
 	Source Source `json:"source,omitempty"`
 }
 
+// A Source is represents
 type Source struct {
 	Pointer string `json:"pointer,omitempty"`
 }
 
+// Returns the error in string format
 func (e *ErrorJSON) Error() string {
 	out, _ := json.Marshal(e)
 	return string(out)
 }
 
+// ErrorByte returns the error in an []byte
 func (e *ErrorJSON) ErrorByte() []byte {
 	out, _ := json.Marshal(e)
 	return out
 }
 
+// AddError allows adding fields to the error
 func (e *ErrorJSON) AddError(comp ErrorComp) {
 	e.Errors = append(e.Errors, comp)
 }
