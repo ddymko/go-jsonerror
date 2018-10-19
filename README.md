@@ -1,4 +1,5 @@
 # Go-JsonError
+[![Go Report Card](https://goreportcard.com/badge/github.com/ddymko/go-jsonerror)](https://goreportcard.com/report/github.com/ddymko/go-jsonerror) [![Build Status](https://travis-ci.org/ddymko/go-jsonerror.svg?branch=master)](https://travis-ci.org/ddymko/go-jsonerror) [![Coveragestatus](https://codecov.io/gh/ddymko/go-jsonerror/branch/master/graph/badge.svg)](https://codecov.io/github/ddymko/go-jsonerror?branch=master)
 
 Go-JsonError is ment to allow us to easily create json response errors that follow the JsonApi spec.
 
