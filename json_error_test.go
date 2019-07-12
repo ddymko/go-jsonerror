@@ -1,4 +1,4 @@
-package jsonError
+package jsonerror
 
 import (
 	"reflect"
