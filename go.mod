@@ -1,1 +1,3 @@
-module github.com/ddymko/go-jsonerror
+module github.com/kallusakar/go-jsonerror
+
+go 1.12
