@@ -40,7 +40,7 @@ func TestErrorJSON_Error(t *testing.T) {
 
 	err.AddError(errorComposition)
 
-	errString := "{\"Errors\":[{\"status\":200,\"code\":\"This is the code\",\"title\":\"Title Test\",\"detail\":\"this is a error message\",\"source\":{\"pointer\":\"/unit/tests\"}}]}"
+	errString := "{\"errors\":[{\"status\":200,\"code\":\"This is the code\",\"title\":\"Title Test\",\"detail\":\"this is a error message\",\"source\":{\"pointer\":\"/unit/tests\"}}]}"
 
 	if errString != err.Error() {
 		t.Fatal("The err string produced did not match up")
