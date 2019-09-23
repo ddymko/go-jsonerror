@@ -6,7 +6,7 @@ import (
 
 // ErrorJSON contains an array of Errors.
 type ErrorJSON struct {
-	Errors []ErrorComp
+	Errors []ErrorComp `json:"errors"`
 }
 
 // ErrorComp is a error structure that follows the json spec.
