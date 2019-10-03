@@ -15,7 +15,7 @@ This follows the jsonapi spec where the error response must return an array.
 
 Here is a basic example
 
-```
+``` go
 	var err ErrorJSON
 
 	errorComposition := ErrorComp{
@@ -40,7 +40,7 @@ Here is a basic example
 
 This package is just using the standard test packge included with go. You can run the test cases with
 
-```
+``` sh
 go test ./...
 ```
 
