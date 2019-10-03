@@ -3,7 +3,7 @@
 [![GoDoc](https://godoc.org/github.com/ddymko/go-jsonerror?status.svg)](https://godoc.org/github.com/ddymko/go-jsonerror)
 [![Mentioned in Awesome Go](https://awesome.re/mentioned-badge.svg)](https://github.com/avelino/awesome-go)  
 
-Go-JsonError is ment to allow us to easily create json response errors that follow the JsonApi spec.
+Go-JsonError is meant to allow us to easily create json response errors that follow the JsonApi spec.
 
 [Json API Spec](https://jsonapi.org/format/#errors)
 
