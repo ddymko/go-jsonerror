@@ -31,7 +31,7 @@ Here is a basic example
 	err.AddError(errorComposition)
 
 	err.Error()
-	err.ByteError()
+	err.ErrorByte()
 ```
 
 
